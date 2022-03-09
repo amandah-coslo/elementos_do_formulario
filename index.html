@@ -6,6 +6,7 @@
 </head>
 <body>
 
+    <!--div select-->
     <div>
         <label for="categoria">Categoria:</label>
         <select name="Categoria" id="categoria">
@@ -15,6 +16,9 @@
             <option value="funcionario">Funcionário</option>
         </select>
     </div>
+    <!--fim div select-->
+
+    <!--div checkbox-->
     <div>
         <br/>
         <label>Selecione suas cores preferidas:</label>
@@ -31,6 +35,9 @@
         <input type="checkbox" name="blue" id="red">
         <label for="red">Vermelho</label>
     </div>
+    <!--fim div checkbox-->
+
+    <!--div radio-->
     <div>
         <br/>
         <label>Sexo:</label>
@@ -40,6 +47,23 @@
         <input type="radio" name="sexo" id="sexo_m" value="m">
         <label for="sexo_m">Masculino</label> 
     </div>
+    <!--fim div radio-->
 
+    <!--div textarea-->
+    <div>
+        <br/>
+        <label for="comentarios">Comentários</label>
+        <br/>
+        <textarea 
+            name="comentarios" 
+            id="comentarios" 
+            rows="4" 
+            cols="50" 
+            autofocus
+            required
+            style="resize: none;">
+        </textarea>
+    </div>
+    <!--fim div textarea-->
 </body>
 </html>
